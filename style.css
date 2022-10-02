@@ -40,6 +40,7 @@ img{
     border-radius: 6px;
     cursor: pointer;
     margin-top: auto;
+    transition: 0.4s;
 }
 
 .sentuh1{
@@ -49,10 +50,18 @@ img{
 
 @media (min-width: 600px){
   img{
-    padding-top: 20px;
+     border-radius: 50%;
+    box-shadow: 1px 1px 4px grey;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    margin-left: 35px;
+    object-fit: cover;
     display: block;
-    width: 400px;
-    height: 400px;
+    transition: 0.4s;
+    width: 11.5cm;
+    height: 9.5cm;
   }
   .caption{
     font-size: 65px;
